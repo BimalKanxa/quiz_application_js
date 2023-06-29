@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(10, 76, 88);
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  padding: 9px;
+  background-color: rgba(128, 128, 128, 0.5);
+}
+
+.navbar img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  margin: 5px 5px 5px 20px;
+}
+
+.navbar h1 {
+  margin: 10px 10px 10px 5px;
+  color: cyan;
+  font-size: 30px;
+  transition: color 0.3s ease-in;
+}
+
+.navbar h1:hover {
+  color: white;
+  border-radius: 2px;
+  transition: border-bottom 0.7s ease;
+  border-bottom: 2px solid yellow;
+  outline: none;
+}
+
+.app {
+  background: #fff;
+  width: 90%;
+  max-width: 600px;
+  margin: 60px auto 40px;
+  border-radius: 10px;
+  padding: 30px;
+}
+.app h1 {
+  padding: 0px 0px 10px 0px;
+  font-size: 33px;
+  color: rgb(113, 20, 91);
+  text-shadow: 1px 1px 2px red;
+  font-weight: 600;
+  border-bottom: 1px solid #333;
+}
+
+.quiz {
+  padding: 20px 0;
+}
+.quiz h2 {
+  font-size: 25px;
+  color: red;
+}
+
+.btn {
+  background: white;
+  color: black;
+  font-weight: 500;
+  width: 100%;
+  border: 1px solid #222;
+  padding: 10px;
+  margin: 10px 0;
+  text-align: left;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.btn:hover {
+  background: #222;
+  color: #fff;
+}
+
+#next-btn {
+  background: rgb(30, 20, 92);
+  color: rgb(153, 159, 161);
+  font-weight: 500;
+  width: 150px;
+  border: 0;
+  padding: 10px;
+  margin: 10px 0px;
+  border-radius: 10px;
+  cursor: pointer;
+  display: none;
+}
+
+.correct {
+  background: #9aeabc;
+}
+
+.incorrect {
+  background: #ff9393;
+}
+
+.next {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#check_answer {
+  font-size: 18px;
+  margin-right: 20px;
+}
+
+.footer {
+  display: flex;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(23, 13, 13);
+  color: white;
+  height: 20px;
+}/*# sourceMappingURL=sass.css.map */
